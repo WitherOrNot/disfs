@@ -10,6 +10,8 @@ Next, follow [these directions](https://discordpy.readthedocs.io/en/stable/disco
 
 The bot must have all Text Permissions and the View Channels permission.
 
+Then, after installing Python, run `pip install disfs`.
+
 Finally, run `disfs ls` to set up the required information.
 
 If all goes well, you should see an empty file list.
