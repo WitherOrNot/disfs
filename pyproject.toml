@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "disfs"
-version = "0.1.0"
+version = "0.1.2"
 description = "Discord-based filesystem"
 authors = ["witherornot"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-keyring = "^23.5.0"
+keyring = "^21.2.0"
 requests = "^2.27.1"
 requests-toolbelt = "^0.9.1"
 config-path = "^1.0.2"

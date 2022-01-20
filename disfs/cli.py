@@ -16,9 +16,9 @@ def main():
     except:
         print("ERROR: Discord client connection failed")
         print("Please enter bot information.")
-        token = getpass("Token: ")
-        fchan = input("File channel: ")
-        lchan = input("Listing channel: ")
+        token = getpass("Bot token: ")
+        fchan = input("File channel ID: ")
+        lchan = input("Listing channel ID: ")
         set_client(token, fchan, lchan)
     
     commands = {
